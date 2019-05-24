@@ -1,0 +1,18 @@
+---
+micronaut:
+  application:
+    name: hello-world
+
+---
+micronaut:
+  metrics:
+    enabled: true
+
+---
+micronaut:
+  server:
+    port: 8080
+
+---
+greeting:
+  message: Hello
